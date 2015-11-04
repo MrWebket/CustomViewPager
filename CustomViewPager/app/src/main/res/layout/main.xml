@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+
+    <com.hope.customviewpager.CustomViewflipper
+        android:id="@+id/custom_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:fadingEdge="none"
+        android:unselectedAlpha="1" >
+    </com.hope.customviewpager.CustomViewflipper>
+
+</LinearLayout>
